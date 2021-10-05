@@ -1,12 +1,17 @@
 package com.rohan2596.springbootmongodb.entity;
 
 import com.rohan2596.springbootmongodb.model.AddUserRequest;
-import com.rohan2596.springbootmongodb.model.EditUserRequest;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
 
+
+/*
+ * @author : Rohan Kadam
+ * @github : Rohan2596
+ * @medium : https://rohankadam965.medium.com/
+ * */
 @Document
 public class User {
 
