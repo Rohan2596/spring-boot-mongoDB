@@ -67,7 +67,7 @@ public class UserService {
         if (optionalUser.isEmpty()) {
             return false;
         }
-        userRepository.delete(optionalUser.get());
+        userRepository.deleteById(optionalUser.get().getId());
         return true;
     }
 }
